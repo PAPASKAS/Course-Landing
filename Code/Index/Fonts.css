@@ -1,3 +1,102 @@
 *{
     text-decoration:none !important;
 }
+@font-face {
+    font-family: Montserrat;
+    src: url(../../Source/Fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Mulish;
+    src: url(../../Source/Fonts/Mulish-Regular.ttf);
+}
+:root{
+    --background-a:linear-gradient(44.11deg, #CD10FF 15.75%, #9F06FF 84.63%);
+    --main:#001A49;
+    --white:#FFFFFF;
+    --gray:#4F596A;
+}
+
+
+
+
+
+
+/*header*/
+header .left-side a{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--main);    
+}
+header .right-side .sign-up{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--main);    
+}
+header .right-side .get-started{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--white);    
+}
+header .dropdown button{
+    font-family: Mulish;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--white);    
+}
+header .dropdown a{
+    font-family: Mulish;
+    font-style: normal;
+    color: var(--main);    
+}
+
+
+
+
+
+/*tools-today*/
+.tools-today h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 68px; 
+    letter-spacing: -1px;
+    color: var(--main);    
+}
+.tools-today p{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--gray);    
+}
+.tools-today a{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--white);
+}
+.tools-today div{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--gray);    
+}
+.tools-today div word{
+    color:#9F07FF;
+}
