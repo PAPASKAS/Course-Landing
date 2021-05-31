@@ -100,3 +100,207 @@ header .dropdown a{
 .tools-today div word{
     color:#9F07FF;
 }
+
+
+
+
+
+
+/*reviews*/
+.reviews p:first-of-type{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    color: var(--main);    
+}
+.reviews p:last-of-type{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--gray);    
+}
+
+
+
+
+
+
+
+/*learn*/
+.learn > h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 56px;
+    color: var(--main);    
+}
+.learn > p{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--gray);
+}
+.learn .text h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--main);
+}
+.learn .text p{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--gray);
+}
+.learn a{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--white);    
+}
+
+
+
+
+
+
+
+/*instructor*/
+.instructor h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 56px;
+    color: var(--main);    
+}
+.instructor p{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--gray);    
+}
+
+
+
+
+
+
+
+
+
+/*asked questions*/
+.asked-questions h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 56px;
+    color: var(--main);    
+}
+.asked-questions button span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--main);    
+}
+.asked-questions .collapse div{
+    font-family: Mulish ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px ;
+    line-height: 26px ;
+    color: var(--gray) ;
+}
+
+
+
+
+
+
+/*.ready-to-learn*/
+.ready-to-learn p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    background: -webkit-linear-gradient(44.11deg, #CD10FF 15.75%, #9F06FF 84.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2.57143px;
+    text-transform: uppercase;
+}
+.ready-to-learn h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 56px;
+    color: var(--main);
+}
+.ready-to-learn a{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--white);    
+}
+
+
+
+
+
+/*footer*/
+footer input::placeholder{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--gray);
+    opacity: 0.5;
+}
+footer button{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--white);    
+}
+footer p{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--main);    
+}
+footer li a{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--gray);
+}

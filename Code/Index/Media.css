@@ -1,4 +1,44 @@
-/*tools today*/
-@media (max-width:575px) {
-    
+/*reviews*/
+@media (max-width:767px) {
+    .reviews > span{
+        flex:1;
+        min-width:200px;
+    }
+    .reviews > span:nth-child(2){
+        flex:1;
+        height: 112px;
+        border:none;
+    }
+}
+
+
+
+
+/*.asked-questions*/
+@media(max-width:575px){
+    .asked-questions .text{
+        padding-right:80px;
+    }
+}
+
+
+
+/*ready to learn*/
+@media(max-width:358px){
+    .ready-to-learn div{
+        height: 45px;
+    }
+}
+
+
+
+
+/*footer*/
+@media(max-width:1200px){
+    footer button{
+        position: absolute;
+    }
+    footer input{
+        transform:none;
+    }
 }
