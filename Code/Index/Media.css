@@ -35,9 +35,6 @@
 
 /*footer*/
 @media(max-width:1200px){
-    footer button{
-        position: absolute;
-    }
     footer input{
         transform:none;
     }

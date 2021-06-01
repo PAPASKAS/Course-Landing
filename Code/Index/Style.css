@@ -231,6 +231,59 @@ main{
 
 
 
+
+
+
+/* why stud say / swiper */
+.why-students-say{
+    background: linear-gradient(44.11deg, #CD10FF 15.75%, #CD10FF 15.76%, #9F06FF 84.63%);
+    padding:120px 0;
+    margin:100px auto 150px auto;
+}
+.why-students-say > h1,
+.why-students-say > P{
+    max-width:560px;
+    margin:0 auto;
+}
+.why-students-say > p{
+    margin:20px auto 100px auto;
+}
+.why-students-say .swiper-wrapper{
+    display:flex;
+    gap:20px;
+}
+.why-students-say .swiper-slide{
+    display:grid;
+    align-content: space-between;
+    max-width: 550px;
+    width: 100%;
+    background: rgba(76, 0, 112, 0.195968);
+    border-radius: 20px;
+    padding:50px 50px 40px 50px;
+}
+.why-students-say .swiper-slide .profile{
+    display:flex;
+    align-items: center;
+}
+.why-students-say .swiper-slide .profile p{
+    margin:0 0 0 14px;
+}
+.why-students-say .swiper-slide .profile p:last-of-type{
+    margin-top:4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*asked-questions*/
 .asked-questions{
     display:grid;
